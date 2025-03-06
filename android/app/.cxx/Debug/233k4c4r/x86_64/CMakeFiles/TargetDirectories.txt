@@ -1,0 +1,2 @@
+D:/Miniproject ui/ui project/BioFlock/android/app/.cxx/Debug/233k4c4r/x86_64/CMakeFiles/edit_cache.dir
+D:/Miniproject ui/ui project/BioFlock/android/app/.cxx/Debug/233k4c4r/x86_64/CMakeFiles/rebuild_cache.dir

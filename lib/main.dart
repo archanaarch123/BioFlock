@@ -1,3 +1,4 @@
+import 'package:bioflock/navigationbar.dart';
 import 'package:flutter/material.dart';
 import 'Homepage/homepage.dart';
 import 'Login/login.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           bodyMedium: TextStyle(fontSize: 14.0, color: Colors.grey),
         ),
       ),
-      home: HomePage(),
+      home: NavigationMenu(), // Set NavigationMenu as the home widget
       routes: {
         '/login': (context) => LoginPage(),
         '/signup': (context) => SignUpPage(),

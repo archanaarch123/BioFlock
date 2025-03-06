@@ -11,16 +11,23 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              'BioFlock',
-              style: TextStyle(
-                fontSize: 32.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.black,
-                fontFamily: 'YourCustomFont',
+            Container(
+              child: 
+              Image.asset("assets/images/GreenINTROpage.jpg")
+            ),
+            Container(
+              child: 
+              Text(
+                'BioFlock',
+                style: TextStyle(
+                  fontSize: 32.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                  fontFamily: 'YourCustomFont',
+                ),
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 5),
             Text(
               'Monitor  ·  Predict  ·  Protect\nThe Future of Poultry Farming',
               textAlign: TextAlign.center,
@@ -33,7 +40,7 @@ class HomePage extends StatelessWidget {
             SizedBox(height: 40),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Color(0xFF123456), 
+                backgroundColor: Color.fromARGB(255, 130, 232, 159), 
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
