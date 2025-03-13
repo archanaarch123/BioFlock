@@ -1,0 +1,2 @@
+C:/Users/archa/mini_project_flutter/BioFlock/android/app/.cxx/Debug/t1a2b2k2/x86/CMakeFiles/edit_cache.dir
+C:/Users/archa/mini_project_flutter/BioFlock/android/app/.cxx/Debug/t1a2b2k2/x86/CMakeFiles/rebuild_cache.dir

@@ -38,7 +38,7 @@ class _SettingState extends State<Setting> {
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.lightGreen, Colors.teal],
+            colors: [Colors.green, Colors.yellow],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
